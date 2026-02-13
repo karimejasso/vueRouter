@@ -20,7 +20,7 @@ getData();
 <<template>
     <h1>Pokemons</h1>
     <ul>
-        <li v-for="poke in pokemons" :key="poke.name">
+        <li v-for="poke in pokemons" :key="poke.name" >
             <router-link :to="`/pokes/${poke.name}`">
                 {{ poke.name }}
             </router-link>

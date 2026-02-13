@@ -17,7 +17,7 @@ import { RouterLink, RouterView } from 'vue-router';
             PokeAPI
           </router-link>
           <div>
-            <router-link to="/" class="btn btn-outline-primary" >Home</router-link>
+            <router-link to="/" class="btn btn-outline-primary me-2" >Home</router-link>
             <router-link to="/poke" class="btn btn-outline-primary" >Pokemones</router-link>
           </div>
         </div>
